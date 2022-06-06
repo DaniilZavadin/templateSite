@@ -1,0 +1,25 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.info-block {
+    width: 70%;
+    margin-bottom: 50px;
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__text {
+        text-align: center;
+    }
+}
+
+.partners {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

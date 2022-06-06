@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from '../pages/Home'
-import Services from '../pages/Services'
-import AboutUs from '../pages/AboutUs'
-import Payment from '../pages/Payment'
+import Home from '../pages/HomePage/Home'
+import Services from '../pages/OurServices/Services'
+import AboutUs from '../pages/AboutUs/AboutUs'
+import Payment from '../pages/Payment/Payment'
 
 const AppRoutes = () => {
     return (

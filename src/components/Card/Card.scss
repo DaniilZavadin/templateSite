@@ -1,0 +1,21 @@
+.card-wrapper {
+    position: relative;
+    padding: 20px;
+    &__image{
+        width: 100%;
+    }
+    &__text{
+        display: none;
+    }
+    &:hover{
+        .card-wrapper__text{
+            bottom:0;
+            left: 0;
+            width: 100%;
+            font-size: 30px;
+            background-color: rgb(249, 249, 249);
+            position: absolute;
+            display: flex;
+        }
+    }
+}

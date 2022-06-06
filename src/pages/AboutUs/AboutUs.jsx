@@ -1,10 +1,11 @@
 import React from 'react';
+import "./AboutUs.scss"
 
-const Card = ({ props }) => {
+const AboutUs = ({ props }) => {
     return (
         <div>
         </div>
     );
 }
 
-export default Card;
+export default AboutUs;
